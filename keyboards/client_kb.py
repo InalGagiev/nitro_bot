@@ -53,3 +53,4 @@ keyboard_bot_tg_and_ds_button2 = types.InlineKeyboardButton(text='💎Телег
 by_keyboard = InlineKeyboardMarkup(row_width=1)
 by_keyboard_button1 = types.InlineKeyboardButton(text='подтвердить', url='https://app.leadteh.ru/w/sqlw?k=RscY4wOB')
 keyboard_bot_tg_and_ds.add(keyboard_bot_tg_and_ds_button1, keyboard_bot_tg_and_ds_button2)
+    

@@ -29,7 +29,7 @@ async def cmd_start(message: types.Message):
 ⚡️Чтобы связаться с тех.поддержкой, нажмите кнопку "Помощь", вы сможете связаться с нами в любом удобном для вас месте!⚡️--''')
     
 async def handle_buy_callback(callback_query: types.CallbackQuery):
-    with open('images/prices.jpg', 'rb') as photo:
+    with open('images/prices_6.png', 'rb') as photo:
         await callback_query.message.answer_photo(photo,        
                                    reply_markup=buy_list,                 
                                    caption='''💥 Выбери интересующую тебя подписку и покупай!
